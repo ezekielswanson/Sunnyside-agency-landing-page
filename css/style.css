@@ -18,6 +18,62 @@
 
 body {
     font-family: 'Barlow', sans-serif;
-    line-height: 
+    line-height: 2.5em;
+    color: 24303E;
+}
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ====== SECTION STYLES =======*/
+
+/* Nav Bar */
+
+nav {
+    background-color: #3dbeff;
+    padding: 34px 40px;
+
+}
+.flex_nav { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+
+}
+
+.flex_nav img {
+    margin-right: auto;
+}
+
+.flex_nav li {
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.flex_nav a {
+    color: white;
+}
+
+.flex_nav a:hover {
+    color: #f16a59;
+}
+
+.nav-btn {
+    border-radius: 5em;
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+}
+
+.nav-btn a {
+    color: #272e3b;
 }
