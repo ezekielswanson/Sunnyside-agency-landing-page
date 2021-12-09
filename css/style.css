@@ -69,11 +69,27 @@ nav {
 
 .nav-btn {
     border-radius: 5em;
-    width: 25%;
+    width: 40%;
     background-color: white;
     padding: 15px;
 }
 
-.nav-btn a {
-    color: #272e3b;
+.flex_nav .nav-btn a {
+    color: #272e3b !important;
+}
+
+
+/*Header Section*/
+
+.header-section-bckgrnd-img {
+    background-image: url(../../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50em;
+}
+
+
+.header-section h1 {
+    text-align: center;
+    padding-top: 10em;
 }
