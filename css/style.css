@@ -7,6 +7,8 @@
     --secondary-color: #3dbeff;
     --tertiary-color: #90d4c5;
 
+
+
 }
 
 
@@ -28,6 +30,37 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+
+
+/* ===== UTLITIES ===== */
+
+/*Main Section*/
+.grid-2-col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-section-header-text {
+    font-size: 40px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    font-style: normal;
+    color: #24303E;
+}
+
+.main-section-p-text {
+    font-size: 18px;
+    font-family: 'Barlow';
+    font-style: normal;
+    letter-spacing: -0.128571px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #808397;
+
 }
 
 
@@ -67,6 +100,7 @@ nav {
     color: #f16a59;
 }
 
+
 .nav-btn {
     border-radius: 5em;
     width: 40%;
@@ -74,9 +108,13 @@ nav {
     padding: 15px;
 }
 
+
+/*
 .flex_nav .nav-btn a {
     color: #272e3b !important;
 }
+*/
+
 
 
 /*Header Section*/
@@ -84,12 +122,28 @@ nav {
 .header-section-bckgrnd-img {
     background-image: url(../../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 50em;
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+
 }
 
 
 .header-section h1 {
     text-align: center;
     padding-top: 10em;
+    color: #FFFFFF;
+    font-size: 56px;
+    position: relative;
+    bottom: 300px;
+    letter-spacing: 8.75px;
+    font-family: Fraunces 9pt Soft;;
+}
+
+
+.arrow-header {
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+
 }
