@@ -50,6 +50,15 @@ a {
     padding: 0 8em;
 }
 
+.box-three-flex {
+    display: flex;
+    align-items: center;
+    text-align:  center;
+    padding: 23em 6em 0 6em;
+    
+
+}
+
 .main-section-header-text {
     font-size: 40px;
     font-family: 'Fraunces';
@@ -97,6 +106,35 @@ a {
     border-bottom: rgb(254, 119, 102, 0.25) solid 10px;
     width: 20%;
     margin-top: -17px;
+
+}
+
+
+.box-three-h2 {
+    font-family: 'Fraunces' 9pt Soft;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+    margin-bottom: 1em;
+}
+
+.box-three-p-green {
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 27px;
+    color: #3E7467;
+    font-style: normal;
+
+}
+
+.box-three-p-blue {
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 27px;
+    color: #19536C;
+    font-style: normal;
 
 }
 
@@ -183,5 +221,27 @@ nav {
     position: relative;
     left: 50%;
     bottom: 150px;
+
+}
+
+
+/*Main Section*/
+
+/* Box three */
+
+.box-three-bckgrnd-img-1 {
+    background-image: url(../../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+}
+
+.box-three-bckgrnd-img-2 {
+    background-image: url(../../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 600px;
 
 }
