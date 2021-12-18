@@ -139,6 +139,13 @@ a {
 }
 
 
+/* Client testimonials */
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 
 /* ====== SECTION STYLES =======*/
 
