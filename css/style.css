@@ -36,6 +36,18 @@ a {
 
 /* ===== UTLITIES ===== */
 
+
+/* Global */
+
+.container {
+    max-width: 1440px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 /*Main Section*/
 
 .grid-2-col {
@@ -144,6 +156,72 @@ a {
 .grid-col-3 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.client-test-container {
+    max-width: 1440px;
+    padding: 0 10em;
+    margin-bottom: 10em;
+}
+
+.client-test-section {
+    background-color: #FFFCF8;
+}
+
+.client-test-h3 {
+    text-align: center;
+    font: Fraunces 9pt Soft;
+    style: normal;
+    size: 20px;
+    line-height: 24.66px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #A7AAAD;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    text-transform: uppercase;
+
+}
+
+.client-test-box img {
+    border-radius: 50%
+}
+
+.client-test-p {
+    font: 'Barolow';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.13px;
+    color: #5B636D;
+    margin: 3em 0;
+
+}
+
+.client-test-name {
+    font: Fraunces 9pt Soft;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22.19px;
+    letter-spacing: -0.13px;
+    color: #24303E;
+
+}
+
+.client-test-job-title {
+    font: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+    margin-top: .75em;
 }
 
 
@@ -240,7 +318,7 @@ nav {
     background-image: url(../../images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 720px;
     height: 600px;
 }
 
@@ -248,7 +326,7 @@ nav {
     background-image: url(../../images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 720x;
     height: 600px;
 
 }
