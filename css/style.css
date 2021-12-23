@@ -330,3 +330,15 @@ nav {
     height: 600px;
 
 }
+
+/* Footer Images */
+
+.footer-images-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-images-flex img {
+    width: 360px;
+    height: 447px;
+}
