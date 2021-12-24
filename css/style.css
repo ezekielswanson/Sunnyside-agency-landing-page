@@ -342,3 +342,47 @@ nav {
     width: 360px;
     height: 447px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #90D4C6;
+    height: 350px;
+}
+
+.footer-logo {
+    width: 170px;
+    height: 33px;
+    color: #2C7566;
+    margin: 4em 0;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-flex li {
+    margin-left: 3em;
+    margin-top: -3em;
+}
+
+
+.footer-links {
+    font: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -.13px;
+    color: #458D7E;
+
+}
+
+.footer-social-icons {
+    margin-left: 1.5em;
+    margin-top: 5em;
+}
