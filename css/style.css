@@ -32,6 +32,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
 
 
 /* ===== UTLITIES ===== */
@@ -385,4 +388,28 @@ footer {
 .footer-social-icons {
     margin-left: 1.5em;
     margin-top: 5em;
+}
+
+
+/* Hamburger Menu */
+.hamburger-icon {
+    display: none;
+}
+
+
+
+/* ======= MEDIA QUERYS======= */
+
+
+@media (max-width: 768px) {
+    .navbar li {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        margin-left: 27em;
+    }
+
+
 }
