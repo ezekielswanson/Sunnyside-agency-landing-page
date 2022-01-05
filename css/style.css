@@ -393,41 +393,21 @@ footer {
 
 /* Hamburger Menu */
 
-.mobile-menu-icon {
+.hamburger-menu-icon {
     display: none;
-    position: relative;
-    width: 24px;
-    height: 18px;
-    border: none;
-    background: none;
-    top: 35px;
-    left: 327px;
-    background-color: #FFFFFF;
 }
 
 
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-   
-}
-
-
-
-
-
-
-.mobile-div-box {
+.mobile-menu-container {
     background-color: #FFFCF8;
     width: 329px;
     height: 305px;
     padding: 24px;
     position: fixed;
-    left: 35px;
-    right: 0%;
+    left: 50;
+    right: 50px;
     top: 95px;
     bottom: 1px;
-    transition: all 2s;
 }
 
 .mobile-menu {
@@ -477,17 +457,19 @@ footer {
 
 
 @media (max-width: 768px) {
-    .navbar li {
+    .flex-ul li {
         display: none;
     }
 
-    .mobile-menu-icon {
-        display: block;
-        margin-left: 27em;
+
+
+    .hamburger-menu-icon {
+       display: block;
+       margin-left: 27em;
+    
     }
 
-
-    
+  
 
 
 }
