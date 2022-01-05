@@ -1,10 +1,18 @@
 
-/*GLOBAL VARIABLES */
+/* Mobile Menu Variables */
 
-const menuBtn = document.getElementById('nav-toggle');
+const mobileBtnOpen = document.getElementById("mobile-menu-icon");
+const mobileBtnClose = document.getElementById("hidden");
 
-function openMobileMenu () {
-    menuBtn.classList.toggle('hidden');
+
+/* */
+
+function mobileBtnToggle () {
+    mobileBtn.classList("open");
+    mobileBtnClose.classList("hidden");
 }
 
-menuBtn.addEventListener('click', openMobileMenu)
+
+
+mobileBtnOpen.addEventListener('click', mobileBtnToggle)
+
