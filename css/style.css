@@ -308,7 +308,10 @@ nav {
 .arrow-header {
     position: relative;
     left: 50%;
-    bottom: 150px;
+    right: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 210px;
 
 }
 
@@ -397,17 +400,19 @@ footer {
     display: none;
 }
 
-
 .mobile-menu-container {
     background-color: #FFFCF8;
     width: 329px;
     height: 305px;
     padding: 24px;
     position: fixed;
-    left: 50;
-    right: 50px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     top: 95px;
     bottom: 1px;
+    display: none;
 }
 
 .mobile-menu {
@@ -447,11 +452,6 @@ footer {
     text-align: center;
 }
 
-#hidden {
-    transform: translateX(110%);
-}
-
-
 
 /* ======= MEDIA QUERYS======= */
 
@@ -469,7 +469,37 @@ footer {
     
     }
 
-  
+   .grid-2-col {
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+   .box-one .main-section-flex:first-child {
+       order: 1;
+   }
+
+   .main-section-flex {
+       padding: 8em 8em;
+   }
+ 
+   .box-three-container {
+       padding-bottom: 8em;
+   }
+
+   .grid-col-3 {
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+   .footer-images-flex {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+
+   .footer-images-flex img {
+       width: 50%;
+   }
 
 
 }

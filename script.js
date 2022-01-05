@@ -1,18 +1,22 @@
 
 /* Mobile Menu Variables */
 
-const mobileBtnOpen = document.getElementById("mobile-menu-icon");
-const mobileBtnClose = document.getElementById("hidden");
+const mobileIconBtn = document.querySelector('.hamburger-menu-icon');
+const mobileMenuDisplay = document.querySelector('.mobile-menu-container');
+
+/* This function opens and close the mobile menu */
 
 
-/* */
+mobileIconBtn.addEventListener('click', () => {
+    if ( mobileMenuDisplay.style.display === 'none') {
+        mobileMenuDisplay.style.display = 'block';
+    }
 
-function mobileBtnToggle () {
-    mobileBtn.classList("open");
-    mobileBtnClose.classList("hidden");
-}
+    else {
+    mobileMenuDisplay.style.display = 'none';
+    
+    }
 
+});
 
-
-mobileBtnOpen.addEventListener('click', mobileBtnToggle)
 
