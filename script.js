@@ -7,16 +7,16 @@ const mobileMenuDisplay = document.querySelector('.mobile-menu-container');
 /* This function opens and close the mobile menu */
 
 
-mobileIconBtn.addEventListener('click', () => {
-    if ( mobileMenuDisplay.style.display === 'none') {
+function navToggle () {
+    if(mobileMenuDisplay.style.display === 'none' ) {
         mobileMenuDisplay.style.display = 'block';
     }
 
     else {
-    mobileMenuDisplay.style.display = 'none';
-    
+        mobileMenuDisplay.style.display = 'none';
     }
+};
 
-});
 
 
+mobileIconBtn.addEventListener('click', navToggle);

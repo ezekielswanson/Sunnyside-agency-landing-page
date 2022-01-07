@@ -1,13 +1,21 @@
 /* ===== GLOBAL STYLES ===== */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@600;900&display=swap');
 
 :root {
+
+    /* Colors */
     --primary-color: #F2F2F2;
     --secondary-color: #3dbeff;
     --tertiary-color: #90d4c5;
 
 
+
+    /* Font Family */
+    --ff-barlow: 'Barlow', sans-serif;
+    --ff-fruances: 'Fraunces', serif;
+    
 
 }
 
@@ -22,6 +30,8 @@ body {
     font-family: 'Barlow', sans-serif;
     line-height: 2.5em;
     color: 24303E;
+    height: 100vh;
+    width: 100vw;
 }
 
 ul {
@@ -42,9 +52,6 @@ img {
 
 /* Global */
 
-.container {
-    max-width: 1440px;
-}
 
 .text-center {
     text-align: center;
@@ -253,6 +260,7 @@ nav {
     margin-right: 25px;
     font-weight: 600;
     font-size: 18px;
+    font-family: var(--ff-barlow);
 
 }
 
@@ -301,7 +309,8 @@ nav {
     position: relative;
     bottom: 300px;
     letter-spacing: 8.75px;
-    font-family: Fraunces 9pt Soft;
+    font-family: var(--ff-fruances);
+    text-transform: uppercase;
 }
 
 
@@ -311,7 +320,7 @@ nav {
     right: 50%;
     margin-left: auto;
     margin-right: auto;
-    bottom: 210px;
+    bottom: 170px;
 
 }
 
@@ -356,18 +365,20 @@ footer {
     height: 350px;
 }
 
-.footer-logo {
+ .footer .footer-logo {
     width: 170px;
     height: 33px;
-    color: #2C7566;
-    margin: 4em 0;
-}
+    margin-top: 4em;
+    margin-left: 3em;
+
+ }
 
 .footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 4em;
 
 }
 
@@ -392,6 +403,8 @@ footer {
     margin-left: 1.5em;
     margin-top: 5em;
 }
+
+
 
 
 /* Hamburger Menu */
@@ -457,16 +470,24 @@ footer {
 
 
 @media (max-width: 768px) {
+
     .flex-ul li {
         display: none;
     }
 
 
+    .mobile-menu-container {
+        left: 25px;
+    }
 
     .hamburger-menu-icon {
        display: block;
        margin-left: 27em;
     
+    }
+
+    .header-section h1 {
+        line-height: 70.32px;
     }
 
    .grid-2-col {
