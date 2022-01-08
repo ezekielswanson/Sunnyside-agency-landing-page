@@ -8,6 +8,7 @@ const mobileMenuDisplay = document.querySelector('.mobile-menu-container');
 
 
 function navToggle () {
+
     if(mobileMenuDisplay.style.display === 'none' ) {
         mobileMenuDisplay.style.display = 'block';
     }
@@ -15,6 +16,8 @@ function navToggle () {
     else {
         mobileMenuDisplay.style.display = 'none';
     }
+
+   
 };
 
 
