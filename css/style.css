@@ -261,6 +261,8 @@ img {
 nav {
     background-color: #3dbeff;
     padding: 34px 40px;
+    z-index: 100;
+    cursor: pointer;
 
 }
 .flex_nav { 
@@ -268,10 +270,15 @@ nav {
     flex-direction: row; 
     justify-content: flex-end;
 
+
 }
 
 .flex_nav img {
     margin-right: auto;
+}
+
+.flex_nav ul {
+    cursor: pointer;
 }
 
 .flex_nav li {
@@ -281,10 +288,12 @@ nav {
     font-size: 18px;
     font-family: var(--ff-barlow);
 
+
 }
 
 .flex_nav a {
     color: white;
+    cursor: pointer;
 }
 
 .flex_nav a:hover {
@@ -431,11 +440,6 @@ footer {
 
 }
 
-/* .open */
-
-
-/* .mobile-menu-container display none */
-
 
 .mobile-menu-container {
     background-color: #FFFCF8;
@@ -499,7 +503,6 @@ footer {
         display: none;
     }
 
-    /*put container media .open here */
 
 
     .hamburger-menu-icon {
