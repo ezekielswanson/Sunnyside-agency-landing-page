@@ -260,8 +260,9 @@ img {
 
 nav {
     background-color: #3dbeff;
+    max-width: 1352px;
     padding: 34px 40px;
-    z-index: 100;
+    z-index: 200;
     cursor: pointer;
 
 }
@@ -269,6 +270,7 @@ nav {
     display: flex;
     flex-direction: row; 
     justify-content: flex-end;
+    z-index: 100;
 
 
 }
@@ -294,11 +296,15 @@ nav {
 .flex_nav a {
     color: white;
     cursor: pointer;
+    z-index: 101;
 }
 
 .flex_nav a:hover {
     color: #f16a59;
+    z-index: 101;
 }
+
+
 
 
 .nav-btn {
@@ -318,6 +324,8 @@ nav {
     background-position: center bottom;
     background-size: cover;
     height: 100vh;
+    z-index: 1;
+    position: relative;
 
 }
 
@@ -329,25 +337,19 @@ nav {
     color: #FFFFFF;
     font-size: 56px;
     position: relative;
-    bottom: 300px;
+    bottom: 400px;
     letter-spacing: 8.75px;
     font-family: var(--ff-fruances);
     text-transform: uppercase;
-    
-}
-
-    
-
-
-.arrow-header {
+    z-index: 1;
     position: absolute;
-    left: 50%;
-    margin: 0;
-    bottom: 260px;
-    transform: translateX(-50%);
-
+    top: 20;
+    left: 0;
+    right: 0;
+    
 }
 
+    
 
 /*Main Section*/
 
